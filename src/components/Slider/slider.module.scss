@@ -1,0 +1,71 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  transition: 0.8s ease;
+  transition-timing-function: cubic-bezier(0.79, 0.54, 0.38, 1);
+  overflow: hidden;
+}
+
+%btn-styles {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 100vh;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  color: white;
+  background: transparent;
+  transition-duration: 0.3s;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  &:hover:before {
+    opacity: 1;
+  }
+
+  &:hover {
+    color: gray;
+  }
+}
+
+#goLeft {
+  left: 0;
+  @extend %btn-styles;
+
+  &:before {
+    background-image: linear-gradient(270deg, transparent, rgba(0, 0, 0, 0.1));
+  }
+}
+
+#goRight {
+  right: 0;
+  @extend %btn-styles;
+
+  &:before {
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.1), transparent);
+  }
+}

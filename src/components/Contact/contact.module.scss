@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0;
+
+  h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0.8rem;
+  }
+
+  .underline {
+    width: 50px;
+    margin: auto;
+    border-top: 3px solid red;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+
+    .email {
+      margin: 1rem 0;
+    }
+  }
+}

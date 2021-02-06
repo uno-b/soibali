@@ -1,0 +1,15 @@
+.background {
+  position: relative;
+  background: url('../../images/building 2nd floor walkway.png');
+  height: 30vw;
+
+  background-attachment: fixed;
+  padding: 5rem;
+
+  .info {
+    color: white;
+    width: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
