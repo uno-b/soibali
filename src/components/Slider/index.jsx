@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
+import PropTypes from 'prop-types';
 
 import Image from './Image';
 import styles from './slider.module.scss';
@@ -8,7 +9,7 @@ import i2 from '../../images/2nd floor unit.png';
 import Text from './Text';
 import Button from './Button';
 
-const Slider = () => {
+const Slider = ({ cover }) => {
   const sliderArr = [
     [1, <Image src={i1} />],
     [2, <Image src={i2} />],
@@ -38,8 +39,12 @@ const Slider = () => {
           <div key={item[0]} className={styles.slide} style={{ transform: `translateX(${x}%)` }}>
             {item[1]}
           </div>
-          <Text />
-          <Button />
+          {cover && (
+            <>
+              <Text />
+              <Button />
+            </>
+          )}
         </>
       ))}
 
@@ -51,6 +56,14 @@ const Slider = () => {
       </button>
     </div>
   );
+};
+
+Slider.propTypes = {
+  cover: PropTypes.bool,
+};
+
+Slider.defaultProps = {
+  cover: true,
 };
 
 export default Slider;

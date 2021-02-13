@@ -6,6 +6,7 @@ import Slider from '../components/Slider';
 import About from '../components/About';
 import Parallax from '../components/Parallax';
 import SitePlan from '../components/SitePlan';
+import BGParallax from '../components/BGParallax';
 import Contact from '../components/Contact';
 import ImagesRow from '../components/ImagesRow';
 import SEO from '../components/SEO';
@@ -26,6 +27,8 @@ const IndexPage = () => (
     <About />
     <Parallax />
     <SitePlan />
+    <BGParallax />
+    <Slider cover={false} />
     <Contact />
     <ImagesRow />
   </Layout>
