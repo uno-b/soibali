@@ -1,11 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import img1 from '../../images/Building Front.png';
-import img2 from '../../images/building front close up.png';
-import img3 from '../../images/building Front View.png';
-import img4 from '../../images/Building Rear View Close up.png';
-import img5 from '../../images/Building Rear View.png';
+import img1 from '../../images/5.webp';
+import img2 from '../../images/6.webp';
+import img3 from '../../images/7.webp';
+import img4 from '../../images/8.webp';
+import img5 from '../../images/9.webp';
 
 import styles from './imagesRow.module.scss';
 

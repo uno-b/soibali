@@ -3,9 +3,9 @@ import Fade from 'react-reveal/Fade';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
 import Image from './Image';
-import i1 from '../../../images/Apartment blue print.png';
-import i2 from '../../../images/Building Cut away.png';
-import i3 from '../../../images/Site Plan.png';
+import i1 from '../../../images/2.webp';
+import i2 from '../../../images/4.webp';
+import i3 from '../../../images/11.webp';
 import styles from './miniSlider.module.scss';
 
 const MiniSlider = () => {

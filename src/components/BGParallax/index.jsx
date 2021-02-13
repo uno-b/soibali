@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 
-import img1 from '../../images/1st floor unit.png';
+import img1 from '../../images/5.webp';
 import styles from './bgParallax.module.scss';
 
 const BGParallax = () => (

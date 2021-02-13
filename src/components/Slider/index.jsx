@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 import Image from './Image';
 import styles from './slider.module.scss';
-import i1 from '../../images/1st floor unit.png';
-import i2 from '../../images/2nd floor unit.png';
+import i1 from '../../images/0.webp';
+import i2 from '../../images/1.webp';
 import Text from './Text';
 import Button from './Button';
 

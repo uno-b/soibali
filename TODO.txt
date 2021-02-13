@@ -1,0 +1,13 @@
+Change font to match Mandala
+
+"Blogs" item in the navbar
+
+Blogs page
+
+Blog page (template)
+
+Latest blogs section
+
+Responsiveness
+
+New page requested
