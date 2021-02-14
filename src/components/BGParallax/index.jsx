@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
+import Fade from 'react-reveal/Fade';
 
 import img1 from '../../images/5.webp';
 import Button from '../Button';
@@ -11,63 +12,73 @@ const BGParallax = () => (
       <div className={styles.content} />
     </Parallax>
     <div className={styles.wrapper}>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-      <ul>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-        <li>
-          <strong>Unit A</strong>
-          <div>Road-front</div>
-        </li>
-      </ul>
+      <Fade left duration={1000} distance="60px">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+      </Fade>
+      <Fade left duration={1000} distance="60px" delay={200}>
+        <ul>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+        </ul>
+      </Fade>
+      <Fade left duration={1000} distance="60px" delay={400}>
+        <ul>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+        </ul>
+      </Fade>
+      <Fade left duration={1000} distance="60px" delay={600}>
+        <ul>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+          <li>
+            <strong>Unit A</strong>
+            <div>Road-front</div>
+          </li>
+        </ul>
+      </Fade>
     </div>
-    <Button text="REGISTER YOUR INTEREST" />
+    <Fade bottom duration={1000} distance="60px">
+      <Button text="REGISTER YOUR INTEREST" />
+    </Fade>
   </div>
 );
 

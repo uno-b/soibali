@@ -40,7 +40,9 @@ const Indonesia = () => (
           <img src={img6} alt="6" />
         </div>
       </Fade>
-      <Button text="REGISTER YOUR INTEREST" />
+      <Fade bottom duration={1000} distance="60px">
+        <Button text="REGISTER YOUR INTEREST" />
+      </Fade>
     </div>
   </div>
 );
