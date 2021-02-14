@@ -1,5 +1,3 @@
-Change font to match Mandala
-
 "Blogs" item in the navbar
 
 Blogs page

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaTimes, FaBars } from 'react-icons/fa';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
+import Logo from '../../images/10.webp';
 import MenuItems from './MenuItems';
 import styles from './navbar.module.scss';
 
@@ -14,7 +15,9 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbarItems}>
-      <h1 className={styles.logo}>React</h1>
+      <h1 className={styles.logo}>
+        <img src={Logo} alt="Logo" className={styles.logoImg} />
+      </h1>
       <button type="button" className={styles.menuIcon} onClick={handleClick}>
         {clicked ? <FaTimes /> : <FaBars />}
       </button>
