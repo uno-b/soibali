@@ -1,0 +1,41 @@
+.container {
+  padding: 5rem 0;
+
+  .wrapper {
+    width: 50%;
+    margin: auto;
+
+    h1 {
+      text-align: center;
+      padding: 0;
+      margin: 5rem 0 0.8rem;
+    }
+
+    .underline {
+      width: 50px;
+      margin: auto;
+      border-top: 3px solid red;
+    }
+
+    p {
+      text-align: center;
+      margin: 5rem auto;
+      line-height: 2rem;
+    }
+
+    .list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .list * {
+      width: 15%;
+    }
+  }
+}
+
+.content {
+  height: 40vw;
+  object-fit: cover;
+}

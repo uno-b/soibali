@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
+import Button from '../Button';
 import styles from './about.module.scss';
 
 const About = () => (
@@ -17,6 +18,9 @@ const About = () => (
         Non debitis deserunt, voluptatum laboriosam culpa molestias quasi provident ratione soluta
         doloremque quam. Nulla, obcaecati magnam.
       </p>
+    </Fade>
+    <Fade bottom duration={1000} distance="30px" delay={500}>
+      <Button text="REGISTER YOUR INTEREST" />
     </Fade>
   </div>
 );
