@@ -8,6 +8,7 @@ import Parallax from '../components/Parallax';
 import SitePlan from '../components/SitePlan';
 import BGParallax from '../components/BGParallax';
 import Indonesia from '../components/Indonesia';
+import LatestBlogs from '../components/LatestBlogs';
 import Contact from '../components/Contact';
 import ImagesRow from '../components/ImagesRow';
 import SEO from '../components/SEO';
@@ -31,6 +32,7 @@ const IndexPage = () => (
     <BGParallax />
     <Indonesia />
     <Slider cover={false} />
+    <LatestBlogs />
     <Contact />
     <ImagesRow />
   </Layout>
