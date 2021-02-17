@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Navbar from '../components/Navbar';
 import Slider from '../components/Slider';
 import About from '../components/About';
 import Parallax from '../components/Parallax';
@@ -16,7 +15,6 @@ import SEO from '../components/SEO';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Navbar />
     <Slider />
     {/*
     <h1>Hi people</h1>

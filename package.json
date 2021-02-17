@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Unocloud",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^14.1.2",
     "framer-motion": "^3.3.0",
     "gatsby": "^2.32.0",
     "gatsby-image": "^2.5.0",

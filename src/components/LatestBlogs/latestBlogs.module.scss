@@ -19,10 +19,16 @@
     list-style-type: none;
 
     li {
-      background-color: gray;
+      border: 2px solid black;
+      border-radius: 4px;
       margin: 2rem;
       padding: 2rem;
       border-radius: 8px;
+      transition-duration: 0.5s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
 
       * {
         text-decoration: none;
